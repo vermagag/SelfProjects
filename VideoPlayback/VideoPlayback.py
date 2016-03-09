@@ -79,7 +79,7 @@ def main():
 		
 	AtiToolCheck()
 
-	if '--help' in sys.argv:
+	if '--help' in sys.argv[0]:
 		help()
 		sys.exit(0)
 		
